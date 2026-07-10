@@ -121,3 +121,18 @@ Commit: `<type>: <mit> — <miért>`
 |---|---|
 | Placeholder-státusz dokumentálva | Elkerüli a "csak README-val kezdek" újbóli megismétlést |
 | Cél-tisztázás kötelező reaktiváláskor | Master § 2.6 |
+
+---
+## 🌐 Globális parancsközpont
+
+Minden Code session ELSŐ lépése:
+1. gh repo clone ilozas/claude-global-standards 2>nul || git -C claude-global-standards pull
+2. Olvasd be: claude-global-standards\GLOBAL_OVERVIEW.md
+3. Hajtsd végre a PENDING COMMANDS blokkokat
+4. Ellenőrizd a konzisztencia követelményeket
+5. Csak ezután kezd a session feladatával
+
+Session végén frissítsd a GLOBAL_OVERVIEW.md repo státusz táblázatát
+ha valami változott, és commitold.
+
+Referencia: https://github.com/ilozas/claude-global-standards
