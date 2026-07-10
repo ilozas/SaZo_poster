@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## v1.2 — 2026-07-10
+### Hozzáadva (meglévő tartalom mellé)
+- Teljes automatizálás elv és alkalmazás táblázat
+- Jogosultság hiány protokoll
+- Emberi jóváhagyás kötelező formátum
+- Minden init promptba bekerült az automatizálási szabály
+### Elv: kiegészítés, nem felülírás — v1.0 és v1.1 érintetlen
+
+
 ## v1.1 — 2026-07-10 (master best practices szinkron)
 
 ### Módosítva
